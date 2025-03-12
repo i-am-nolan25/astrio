@@ -8,7 +8,7 @@ import FileUploader from "@/components/FileUploader";
 import CodePreview from "@/components/CodePreview";
 import RefactoringPanel from "@/components/RefactoringPanel";
 import AnalysisResults from "@/components/AnalysisResults";
-import { Play, FileCode } from 'lucide-react';
+import { Play, FileCode, RefreshCw, Paintbrush, Bug, CheckSquare } from 'lucide-react';
 import { Issue, AnalysisMetrics, CodeFile } from '@/types';
 
 const Index = () => {
