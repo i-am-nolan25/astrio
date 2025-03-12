@@ -57,6 +57,10 @@ export default {
           DEFAULT: "hsl(var(--code))",
           foreground: "hsl(var(--code-foreground))",
         },
+        sky: "#36C5F0",     // Blue
+        green: "#2EB67D",   // Green
+        yellow: "#ECB22E",  // Yellow
+        red: "#C74634",     // Red
       },
       borderRadius: {
         lg: "var(--radius)",

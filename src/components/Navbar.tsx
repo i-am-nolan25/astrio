@@ -8,19 +8,19 @@ const Navbar = () => {
   const location = useLocation();
   
   return (
-    <header className="border-b border-border py-4 px-6">
+    <header className="border-b border-border py-4 px-6 bg-white shadow-sm">
       <div className="container max-w-6xl mx-auto flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <div className="bg-primary/20 p-1.5 rounded-md">
-            <ArrowRight className="h-5 w-5 text-primary" />
+          <div className="bg-sky/20 p-1.5 rounded-md">
+            <ArrowRight className="h-5 w-5 text-sky" />
           </div>
           <Link to="/" className="text-xl font-semibold">Astrio</Link>
         </div>
         <nav className="hidden md:flex items-center gap-6">
           <Link 
             to="/" 
-            className={`text-sm font-medium hover:text-primary transition flex items-center gap-2 ${
-              location.pathname === '/' ? 'text-primary' : ''
+            className={`text-sm font-medium hover:text-sky transition flex items-center gap-2 ${
+              location.pathname === '/' ? 'text-sky' : ''
             }`}
           >
             <HomeIcon className="h-4 w-4" />
@@ -28,8 +28,8 @@ const Navbar = () => {
           </Link>
           <Link 
             to="/about" 
-            className={`text-sm font-medium hover:text-primary transition flex items-center gap-2 ${
-              location.pathname === '/about' ? 'text-primary' : ''
+            className={`text-sm font-medium hover:text-sky transition flex items-center gap-2 ${
+              location.pathname === '/about' ? 'text-sky' : ''
             }`}
           >
             <Info className="h-4 w-4" />
@@ -37,8 +37,8 @@ const Navbar = () => {
           </Link>
           <Link 
             to="/contact" 
-            className={`text-sm font-medium hover:text-primary transition flex items-center gap-2 ${
-              location.pathname === '/contact' ? 'text-primary' : ''
+            className={`text-sm font-medium hover:text-sky transition flex items-center gap-2 ${
+              location.pathname === '/contact' ? 'text-sky' : ''
             }`}
           >
             <Mail className="h-4 w-4" />
@@ -49,7 +49,7 @@ const Navbar = () => {
           <Link to="/app" className="text-sm font-medium text-muted-foreground hover:text-foreground transition">
             Sign In
           </Link>
-          <Button asChild>
+          <Button asChild className="bg-sky hover:bg-sky/90">
             <Link to="/app">
               Get Started Free
               <ArrowRight className="ml-2 h-4 w-4" />
