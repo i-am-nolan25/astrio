@@ -14,7 +14,7 @@ const Navbar = () => {
           <div className="bg-sky/20 p-1.5 rounded-md">
             <ArrowRight className="h-5 w-5 text-sky" />
           </div>
-          <Link to="/" className="text-xl font-semibold">Astrio</Link>
+          <Link to="/" className="text-xl font-semibold">astrio</Link>
         </div>
         <nav className="hidden md:flex items-center gap-6">
           <Link 

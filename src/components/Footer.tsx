@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="bg-sky/20 p-1.5 rounded-md">
               <ArrowRight className="h-5 w-5 text-sky" />
             </div>
-            <h2 className="text-xl font-semibold">Astrio</h2>
+            <h2 className="text-xl font-semibold">astrio</h2>
           </div>
           <div className="flex flex-wrap gap-6 mb-4 md:mb-0">
             <Link to="/" className="text-sm text-muted-foreground hover:text-sky transition">
@@ -29,7 +29,7 @@ const Footer = () => {
             </Link>
           </div>
           <div className="text-sm text-muted-foreground">
-            © 2023 Astrio. All rights reserved.
+            © 2025 Astrio. All rights reserved.
           </div>
         </div>
       </div>
